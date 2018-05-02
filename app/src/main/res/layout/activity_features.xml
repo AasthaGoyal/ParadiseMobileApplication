@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".FeaturesActivity">
+
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:background="#0AAFF7"
+        android:gravity="center"
+        android:text="Feature: Inserting data"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:gravity="center"
+        android:text="Please select the data you want to access." />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnGoToCareer"
+            android:layout_width="118dp"
+            android:layout_height="106dp"
+            android:background="#F70A40"
+            android:text=" Career Data" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnInsertCareer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Insert" />
+
+            <Button
+                android:id="@+id/btnSearchCareer"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:background="#0AF78F"
+                android:text="Search/Delete/Edit" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnGoToUser"
+            android:layout_width="240dp"
+            android:layout_height="106dp"
+            android:layout_weight="1"
+            android:background="#F70A40"
+            android:text="User Data" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnInsertUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Insert" />
+
+            <Button
+                android:id="@+id/btnSearchUser"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:background="#0AF78F"
+                android:text="Search/Delete/Edit" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnGoToMenu"
+            android:layout_width="240dp"
+            android:layout_height="106dp"
+            android:layout_weight="1"
+            android:background="#F70A40"
+            android:text="User Data" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnInsertMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Insert" />
+
+            <Button
+                android:id="@+id/btnSearchMenu"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:background="#0AF78F"
+                android:text="Search/Delete/Edit" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ContactsActivity">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:background="#e11030"
+        android:gravity="center"
+        android:text="Contact Us"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:gravity="center"
+        android:text="Call Us : 09 845 1144"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:gravity="center"
+        android:text="Email: paradise@iftli.co.nz"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnGoToWebsite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="https://www.paradiseindianfood.co.nz/" />
+
+    <Button
+        android:id="@+id/btnSendMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send message" />
+
+    <Button
+        android:id="@+id/btnGoogleMaps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="See location on map" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:background="#e11030"
+        android:gravity="center"
+        android:text="Timings:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:gravity="center"
+        android:text="Dine In: 11:30am - 9:30 pm (7 days)"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:gravity="center"
+        android:text="Takeaway: 11:30am - 10.00pm (7 days)"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:gravity="center"
+        android:text="Buffet: 6:30pm-10:00pm (7 days)"
+        android:textSize="18sp" />
+
+</LinearLayout>
